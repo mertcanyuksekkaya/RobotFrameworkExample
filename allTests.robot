@@ -1,8 +1,8 @@
 *** Settings ***
-Resource  ../Resources/utils.robot
-Resource  ../Resources/failLoginBase.robot
-Resource  ../Resources/loginPageBase.robot
-Resource  ../Resources/successLoginBase.robot
+Resource  Resources/utils.robot
+Resource  Resources/failLoginBase.robot
+Resource  Resources/loginPageBase.robot
+Resource  Resources/successLoginBase.robot
 Library   SeleniumLibrary
 Library   DebugLibrary
 Test Setup  utils.start session

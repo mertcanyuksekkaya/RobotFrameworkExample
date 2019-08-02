@@ -7,9 +7,9 @@ Library  SeleniumLibrary
 go to loginPage
     go to  ${MAIN_URL}${LOGIN_URL}
 username input
-    Input Text  ${USERNAME_INPUT}  test1
+    Input Text  ${USERNAME_INPUT}  test0
 password input
-    Input Text  ${PASSWORD_INPUT}  test1
+    Input Text  ${PASSWORD_INPUT}  test0
 click login button
     Click Button  ${LOGIN_BUTTON}
 check fail message
